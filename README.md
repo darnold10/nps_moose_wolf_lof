@@ -43,7 +43,7 @@ Candidate model sets and AIC comparisons. All models are conditional logistic re
 
 
 ### **`data`**
-Raw and derived data. Files are described below.
+The underlying raw GPS relocations for moose and wolves and associated code are not yet provided. Release of precise locations of individually marked animals in a population subject to harvest is restricted under federal and Alaska state law, and the National Park Service withholds such information. Data structures are described below for those used in the analysis.
 
 ### **`model_outputs`**
 Destination for fitted model objects. Created by the user before running `tiered_model_selection_final.R`; the script writes `t1a_*.rds`, `t1b_*.rds`, `t1c_*.rds`, `t2_*.rds`, and `t3_*.rds` here, each suffixed `_sum` or `_win`.
